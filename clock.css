@@ -1,0 +1,77 @@
+#timer {
+    width: 80vw;
+    height: 20vw;
+    background-color: rgba(209, 1, 119, 0.997);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+position: relative;
+    /* text resizing*/
+    border-radius: 10px;
+    font-size: calc(10vw + 1vh);
+    color: white;
+    white-space: nowrap;
+    border-width: 10px;
+    border-color: rgb(185, 153, 244);
+    border-style:double;
+    
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+   display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: linear-gradient(120deg, hsl(314,51%,42%), hsl(283, 84%, 66%), #7a11cb);
+}
+#square {
+height: 20vw;
+width: 20vw;
+background-color: turquoise;
+position: absolute;
+margin-left: -75vw;
+margin-top: -20vw;
+filter: blur(5px);
+border-width: 10px;
+    border-color: rgb(97, 211, 229);
+    border-style: groove;
+
+}
+#circle {
+    height: 20vw;
+    width: 20vw;
+    background-color: rgb(21, 236, 36);
+    position:absolute;
+    margin-right: -75vw ;
+    margin-bottom: -20vw;
+    border-radius: 180px;
+    filter: blur(5px);
+    border-width: 10px;
+    border-color: rgb(162, 220, 185);
+    border-style: groove;
+}
+
+#hrs {
+    position: absolute;
+    margin-left: -29vw;
+    margin-bottom: -15vw;
+    font-size: 20px;
+    color: azure;
+}
+#min {
+    position: absolute;
+    margin-bottom: -15vw;
+    font-size: 20px;
+    color: azure;
+}
+#sec {
+    position: absolute;
+    margin-right: -29vw;
+    margin-bottom: -15vw;
+    font-size: 20px;
+    color: azure;
+}
